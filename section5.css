@@ -1,0 +1,216 @@
+.perfect_section{
+    position: relative;
+}
+.perf_title h1{
+margin-top: 82px;
+color:#603809;
+font-size: 54px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+}
+.perf_title p{
+    color: #707070;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px;
+margin-bottom: 45px;
+}
+.perf_about h1{
+    color:#603809;
+font-size: 220px;
+font-style: normal;
+font-weight: 700;
+line-height: 112px;
+}
+.perf_about{
+    position: relative;
+    margin:0 100px;
+    padding: 55px 30px;
+    border: 1px solid rgba(249, 192, 106, 0.42);
+background: #FFF9F1;
+}
+.perf_about p{
+    color: #707070;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px;
+margin:0 70px;
+}
+.perf_about h2{
+    color:#603809;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-top: 28px;
+}
+.perf_about h6{
+    color: #707070;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px;
+margin-bottom: 45px;
+}
+.site_btn{
+    background-color: #F9C06A;
+    border: 1px solid #F9C06A;
+    color: #603809;
+    padding: 40px;
+    border-radius: 16px;
+    transition: all .5s ease;
+}
+.site_btn:hover{
+    background-color: #603809;
+    border: 1px solid #F9C06A;
+    color: #F9C06A;
+    cursor: pointer;
+}
+.site_btn:active{
+    opacity: .6;
+}
+.left_site{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+.right_site{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+}
+.perf_img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+.perf_right_dec{
+    position: absolute;
+    top: 150px;
+    right: 0;
+}
+.perf_left_dec{
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    transform: rotate(180deg);
+}
+@media screen and (max-width:800px) {
+    .perf_about{
+        position: relative;
+        margin:0;
+    }
+    .site_btn{
+        background-color: #F9C06A;
+        border: 1px solid #F9C06A;
+        color: #603809;
+        padding: 20px;
+    }
+    .perfect_section .img{
+        width: 273px;
+        height: 130px;
+    }
+    .perf_right_dec{
+        position: absolute;
+        top: 300px;
+        right: 0;
+    }
+}
+@media screen and (max-width:650px) {
+    .perf_about p{
+        color: #707070;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    margin:0 15px;
+    }
+    .perf_about h6{
+        margin-bottom: 10px;
+    }
+    .perf_about h2{
+        color:#603809;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:580px) {
+    .perf_title h1{
+        font-size: 34px;
+    }
+    .perf_about h1{
+        color:#603809;
+    font-size: 112px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    }
+    .img{
+        display: none;
+    }
+}
+@media screen and (max-width:450px) {
+    .perf_about{
+        position: relative;
+        padding: 20px 10px;
+        border: 1px solid rgba(249, 192, 106, 0.42);
+    background: #FFF9F1;
+    }
+    .left_site{
+        position: relative;
+        bottom:10px;
+        transform: translate(0);
+        left: auto;
+    }
+    .right_site{
+        position: relative;
+        bottom: 10px;
+        transform: translate(0);
+        right: auto;
+    }
+    .sites{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-self: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+    .perf_img{
+        position:relative;
+        transform: translate(0);
+       margin: 0 auto;
+       left: auto;
+    }
+    .images{
+        text-align: center;
+    }
+}
+@media screen and (max-width:365px) {
+    .perf_title h1{
+        margin-top: 30px;
+        color:#603809;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        }
+}

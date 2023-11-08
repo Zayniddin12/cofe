@@ -1,0 +1,55 @@
+.discover_section{
+    margin-top: 150px;
+    display: flex;
+    gap: 35px;
+}
+.discover_about h1{
+    color: var(--coffee, #603809);
+font-size: 54px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+white-space: nowrap;
+margin-top: 79px;
+margin-bottom: 29px;
+}
+.discover_about p{
+    color: #707070;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px; /* 170% */
+margin-bottom: 40px;
+}
+.discover_about .sign_btn{
+    position: relative;
+    z-index: 9;
+}
+@media screen and (max-width:1150px) {
+    .discover_section{
+        margin-top: 60px;
+        display: block;
+        gap: 35px;
+    } 
+    .discover_about h1{
+    margin-top: 30px;
+    }
+}
+@media screen and (max-width:650px) {
+    .discover_section{
+        margin-top: 20px;
+        display: block;
+        gap: 15px;
+    } 
+    .discover_about h1{
+        font-size: 34px;
+    margin-top: 30px;
+    white-space: wrap;
+    }
+}
+@media screen and (max-width:450px) {
+   .discover_img img{
+    width: 290px;
+    height: 290px;
+   }
+}

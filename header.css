@@ -1,0 +1,125 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    background: url(imgApp/coffee_image.jpg), lightgray 50% / cover no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;
+    width: 100%;
+}
+.logo a{
+    color: #FFF;
+    font-family: 'Clicker Script', cursive;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.link_menu{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.link a{
+    color: #FFF;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration: none;
+transition: all .3 ease;
+}
+.link a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.sign_cont{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.sign_cont a{
+    color: #FFF;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration-line: underline;
+}
+.main-section h4{
+    color: #FFF;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 115px;
+}
+.main-section h1{
+color: #FFF;
+font-family: 'Clicker Script', cursive;
+font-size: 220px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.main-section p{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 170% */
+    width: 50%;
+    margin-bottom: 20px;
+}
+.main-section{
+    padding-bottom: 95px;
+}
+/* RESPONSIVE */
+@media screen and (max-width:1000px) {
+    .link_menu{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+}
+@media screen and (max-width:750px) {
+    .burger{
+        display: block;
+        color: #FFF;
+    }
+    .link_menu{
+        display: none;
+    }
+    .sign_cont{
+        display: none;
+    }
+}
+@media screen and (max-width:650px) {
+    .main-section h4{
+    margin-top: 60px;
+    } 
+    .main-section{
+        padding-bottom: 50px;
+    }
+    .main-section p{
+        width: auto;
+    }
+    .main-section h1{
+        font-size: 150px;
+        }
+}
+@media screen and (max-width:390px) {
+    .main-section h1{
+        font-size: 100px;
+        }
+        .main-section h4{
+            margin-top: 30px;
+            } 
+            
+}

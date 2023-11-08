@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Playfair Display', serif;
+}
+.container{
+    width: 100%;
+    max-width: 1360px;
+    padding: 20px 30px;
+    margin: 0 auto;
+}
+.sign_btn{
+    border-radius: 24px;
+background: #F9C06A;
+box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+color: #1E1E1E;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 14px 27px;
+border: 1px solid transparent;
+transition: all .5s ease;
+}
+.sign_btn:hover{
+color: #F9C06A;
+background-color: #fff;
+border: 1px solid #F9C06A;
+cursor: pointer;
+}
+.sign_btn:active{
+    background: #F9C06A;
+    color: #1E1E1E;
+    border: 1px solid #F9C06A;
+    opacity: .6;
+}
+.burger{
+    display: none;
+}
+/* RECPONSIVE */
+
+@media screen and (max-width:850px) {
+    .container{
+        padding: 20px 50px;
+    }
+}
+@media screen and (max-width:390px) {
+    .container{
+        padding: 20px 30px;
+    }
+}

@@ -1,0 +1,119 @@
+.dfr_title h1{
+    color:#603809;
+font-size: 54px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+margin-top: 82px;
+}
+.dfr_title p{
+    color: #707070;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px; /* 170% */
+margin-bottom: 30px;
+}
+.dfr_body{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.cofee_cont{
+    text-align: center;
+    border: 1px solid rgba(249, 192, 106, 0.42);
+background: #FFF9F1;
+padding: 25px 25px;
+transition: all .5s ease;
+}
+.cofee_cont:hover{
+    background: #FFEED8;
+    border: 1px solid #FFEED8;
+    cursor: pointer;
+}
+.cofee_cont h3{
+    color:#603809;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+white-space: nowrap;
+}
+.cofee_cont p{
+    color: #707070;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.dfr_footer{
+    margin-bottom: 80px;
+    margin-top: 32px;
+    text-align: center;
+}
+.dfr_footer p{
+    color: #707070;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.dfr_footer h3{
+    color:#603809;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    white-space: nowrap;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.different_section{
+    position: relative;
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.different_section .decoration1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 6;
+}
+@media screen and (max-width:1120px) {
+    .dfr_body{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .different_section .decoration1{
+        position: absolute;
+        top: -80px;
+        right: 0;
+        z-index: 6;
+
+    }
+}
+@media screen and (max-width:590px) {
+    .dfr_body{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+}
+@media screen and (max-width:340px) {
+    .dfr_title h1{
+        color:#603809;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-top: 82px;
+    }
+}

@@ -1,0 +1,108 @@
+.enjoy_title h3{
+    color:#603809;
+font-size: 54px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+margin-top: 100px;
+}
+.enjoy_title p{
+    color: #707070;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px; /* 170% */
+margin-bottom: 32px;
+}
+.cofe_veriety .sign_btn{
+    position: relative;
+    z-index: 9;
+}
+.enjoy_body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.cofe-img img{
+    width: 240px;
+    height: 200px;
+}
+.cofe_veriety h1{
+    color: #603809;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+margin-top: 14px;
+}
+.cofe_veriety p{
+    color: #1E1E1E;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+}
+.cofe_veriety h3{
+    color:#603809;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+}
+.cofe_veriety{
+    text-align: center;
+    border: 1px solid rgba(249, 192, 106, 0.42);
+background: #FFF9F1;
+position: relative;
+}
+.cofe_veriety .sign_btn{
+   transform: translateY(50%);
+}
+.enjoy_section{
+    position: relative;
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.enjoy_section .decoration1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 6;
+}
+@media screen and (max-width:1150px) {
+    .enjoy_body{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}
+@media screen and (max-width:590px) {
+    .enjoy_body{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+}
+@media screen and (max-width:400px) {
+    .decoration1{
+        width: 300px;
+        height: 220px;
+    }
+    .enjoy_title h3{
+        color:#603809;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-top: 100px;
+    }
+}
